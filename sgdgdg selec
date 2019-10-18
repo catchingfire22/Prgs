@@ -19,7 +19,7 @@ int main()
     for (d = c + 1; d < n; d++)
     {
       if (array[position] > array[d])
-        position = d;
+        position = f;
     }
     if (position != c)
     {
